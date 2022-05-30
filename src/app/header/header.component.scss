@@ -4,18 +4,31 @@
   color: $white;
   width: 100%;
   @include roboto400;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  align-items: center;
+  padding-left: 117px;
 }
+
+.addres {
+  display: flex;
+}
+
 .mail {
-  color: none;
-  &:before{
-    content: url("../../../src/assets/images/mail.svg");
+  display: flex;
+  align-items: center;
+  &__icon {
+    margin-right: 16px;
   }
 }
 
 .tel {
-  color: none;
-  &:before{
-    content: url("../../../src/assets/images/tel.svg");
+  display: flex;
+  align-items: center;
+  &__icon {
+    margin: 0 16px 0 20px;
   }
 }
 
@@ -37,11 +50,44 @@ a {
 
 .icons {
   display: flex;
+  margin-right: 73px;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: $white;
+  &__link {
+    margin-left: 39px;
+  }
 }
 
 .menu {
   color: $white;
   display: flex;
+  justify-content: space-between;
+  padding: 0px 64px 0 110px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  @include open700;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.item {
+  list-style-type: none;
+  margin-left: 48px;
+  &:nth-child(n+5) {
+    width: 66px;
+    height: 24px;
+    background: $accent;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 45px;
+  }
 }
 
 .logo {
