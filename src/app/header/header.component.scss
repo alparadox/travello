@@ -1,0 +1,51 @@
+@import "src/assets/styles/variables.scss";
+
+.contacts {
+  color: $white;
+  width: 100%;
+  @include roboto400;
+}
+.mail {
+  color: none;
+  &:before{
+    content: url("../../../src/assets/images/mail.svg");
+  }
+}
+
+.tel {
+  color: none;
+  &:before{
+    content: url("../../../src/assets/images/tel.svg");
+  }
+}
+
+a {
+  &:link {
+    color: $white;
+  }
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    color: $white;
+    text-decoration-line: none;
+  }
+  &:active {
+    color: $white;
+  }
+}
+
+.icons {
+  display: flex;
+}
+
+.menu {
+  color: $white;
+  display: flex;
+}
+
+.logo {
+  font-family: $teous;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+}

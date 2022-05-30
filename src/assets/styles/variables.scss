@@ -1,0 +1,53 @@
+@mixin arsenal400 {
+  font: {
+    family: 'Arsenal', sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin arsenal700 {
+  font: {
+    family: 'Arsenal', sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin open400 {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin open700 {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin roboto900 {
+  font: {
+    family: 'Roboto', sans-serif;
+    weight: 900;
+  }
+}
+
+@mixin roboto400 {
+  font: {
+    family: 'Roboto', sans-serif;
+    weight: 400;
+  }
+}
+
+$teous: 'Righteous', cursive;
+
+$white: #FFFFFF;
+
+$dark: #09131B;
+
+$accent: #0059AC;
+
+$grey: #8991AF;
+
+$dark-button: #0E0E0E;
