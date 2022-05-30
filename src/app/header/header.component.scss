@@ -80,6 +80,7 @@ a {
 .item {
   list-style-type: none;
   margin-left: 48px;
+  cursor: pointer;
   &:nth-child(n+5) {
     width: 66px;
     height: 24px;
@@ -87,6 +88,10 @@ a {
     border-radius: 5px;
     text-align: center;
     margin-left: 45px;
+  }
+
+  & a {
+    text-decoration-line: none;
   }
 }
 

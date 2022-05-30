@@ -1,0 +1,25 @@
+@import "src/assets/styles/variables.scss";
+
+.benefit-wrapper {
+  max-width: 260px;
+  margin-left: 97px;
+}
+
+.image-benefit {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  color: $white;
+  @include arsenal700;
+  font-size: 22px;
+  line-height: 16px;
+}
+
+.description {
+  color: $white;
+  @include open400;
+  font-size: 16px;
+  line-height: 27px;
+}

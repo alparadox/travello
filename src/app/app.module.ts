@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ElementsComponent } from './elements/elements.component';
+import { BenefitComponent } from './benefit/benefit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ElementsComponent
+    ElementsComponent,
+    BenefitComponent
   ],
   imports: [
     BrowserModule
