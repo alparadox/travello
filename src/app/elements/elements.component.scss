@@ -103,3 +103,31 @@ input[type='search']::-webkit-search-results-button,
 input[type='search']::-webkit-search-results-decoration {
   display: none;
 }
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include open700;
+  font-size: 0.875rem;
+  color: $white;
+}
+
+.tab {
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: 37px;
+
+  &_select {
+    width: 96px;
+    height: 28px;
+    background: $yellow;
+    border-radius: 8px;
+    color: $dark-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
