@@ -1,0 +1,68 @@
+@import "src/assets/styles/variables.scss";
+
+.card-wrapper {
+  background-color: #000000;
+  max-width: 320px;
+}
+
+.images {
+  border: 1px solid #000000;
+  border-radius: 8px 8px 0px 0px;
+  position: relative;
+}
+
+.hotel {}
+
+.heart {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.content {
+  padding: 0 15px 24px 24px;
+}
+
+.title {
+  @include arsenal700;
+  font-size: 24px;
+  color: $white;
+}
+
+.counter-wrapper {}
+
+.counter {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.prices {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.old-price {
+  color: #B1B4B9;
+  @include dm-italic;
+  font-size: 22px;
+}
+
+.new-price {
+  color: $white;
+  @include dm;
+  font-size: 48px;
+  &__night {
+    font-size: 18px;
+  }
+}
+
+.description {
+  color: #8991AF;
+  @include open400;
+  font-size: 16px;
+  line-height: 25px;
+}

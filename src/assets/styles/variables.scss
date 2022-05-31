@@ -40,6 +40,20 @@
   }
 }
 
+@mixin dm {
+  font: {
+    family: 'DM Serif Display', serif;
+    weight: 400;
+  }
+}
+
+@mixin dm-italic {
+  font: {
+    family: 'DM Serif Display', serif;
+    style: italic;
+  }
+}
+
 $teous: 'Righteous', cursive;
 
 $white: #FFFFFF;

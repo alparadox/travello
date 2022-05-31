@@ -118,6 +118,10 @@ input[type='search']::-webkit-search-results-decoration {
   cursor: pointer;
   margin-left: 37px;
 
+  &:hover {
+    opacity: 0.7;
+  }
+
   &_select {
     width: 96px;
     height: 28px;
