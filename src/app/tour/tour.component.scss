@@ -1,5 +1,9 @@
 @import "src/assets/styles/variables.scss";
 
+* {
+  margin: 0;
+}
+
 .card-wrapper {
   background-color: #000000;
   max-width: 320px;
@@ -23,16 +27,19 @@
 }
 
 .content {
-  padding: 0 15px 24px 24px;
+  padding: 0px 15px 0px 24px;
 }
 
 .title {
   @include arsenal700;
   font-size: 24px;
   color: $white;
+  margin-top: 38px;
 }
 
-.counter-wrapper {}
+.counter-wrapper {
+  margin-top: 18px;
+}
 
 .counter {
   width: 16px;
@@ -43,12 +50,17 @@
 .prices {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 30px;
 }
 
 .old-price {
   color: #B1B4B9;
   @include dm-italic;
   font-size: 22px;
+  margin-bottom: 9px;
+  margin-right: 4px;
+  text-decoration: line-through;
 }
 
 .new-price {
@@ -65,4 +77,10 @@
   @include open400;
   font-size: 16px;
   line-height: 25px;
+  margin-top: 30px;
+}
+
+.button-card {
+  padding-top: 37px;
+  padding-bottom: 24px;
 }

@@ -1,5 +1,10 @@
 @import "src/assets/styles/variables.scss";
 
+:host {
+  display: block;
+  text-align: center;
+}
+
 .small-blue-button {
   box-sizing: border-box;
   width: 16.5rem;

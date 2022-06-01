@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-tour',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tour.component.scss']
 })
 export class TourComponent implements OnInit {
+
+  @Input() imageUrl: string = 'assets/images/Hotel1.png';
+  @Input() title: string = "DoubleTree Montreal Hotel"
+  @Input() oldPrice: string = "149"
+  @Input() newPrice: string = "99"
+  @Input() description: string = "Habitasse quis morbi morbi nunc dignissim convallis vestibulum. Pharetra vel nulla quis egestas dui, duis nec vulputate nunc."
 
   constructor() { }
 

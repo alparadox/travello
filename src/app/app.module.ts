@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { ElementsComponent } from './elements/elements.component';
 import { BenefitComponent } from './benefit/benefit.component';
 import { TourComponent } from './tour/tour.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TourComponent } from './tour/tour.component';
     HeaderComponent,
     ElementsComponent,
     BenefitComponent,
-    TourComponent
+    TourComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule

@@ -1,10 +1,10 @@
 <div class="card-wrapper">
   <div class="images">
-    <img src="assets/images/Hotel1.png" class="hotel">
+    <img [src]="imageUrl" class="hotel">
     <img src="assets/images/heart.svg" class="heart">
   </div>
   <div class="content">
-    <p class="title">DoubleTree Montreal Hotel</p>
+    <p class="title">{{title}}</p>
     <div class="counter-wrapper">
       <img src="assets/images/star.svg" class="counter">
       <img src="assets/images/star.svg" class="counter">
@@ -13,9 +13,13 @@
       <img src="assets/images/star.svg" class="counter">
     </div>
     <div class="prices">
-      <p class="old-price">$149</p>
-      <p class="new-price">$99<span class="new-price__night">/night</span></p>
+      <p class="old-price">${{oldPrice}}</p>
+      <p class="new-price">${{newPrice}}<span class="new-price__night">/night</span></p>
     </div>
-    <p class="description">Habitasse quis morbi morbi nunc dignissim convallis vestibulum. Pharetra vel nulla quis egestas dui, duis nec vulputate nunc.</p>
+    <p class="description">{{description}}</p>
   </div>
+  <div class="button-card">
+    <app-button [type]="'m'" [title]="'Select Rooms'"></app-button>
+  </div>
+
 </div>
