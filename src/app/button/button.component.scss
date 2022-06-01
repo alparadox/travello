@@ -1,0 +1,55 @@
+@import "src/assets/styles/variables.scss";
+
+.small-blue-button {
+  box-sizing: border-box;
+  width: 16.5rem;
+  height: 3rem;
+  cursor: pointer;
+  @include open400;
+  background-color: $accent;
+  color: $white;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 500ms ease;
+  &:hover {
+    background-color: $accent;
+    box-shadow: inset 0 0 0 -3px $accent;
+    opacity: 0.7;
+  }
+}
+
+.big-blue-button {
+  box-sizing: border-box;
+  width: 18.125rem;
+  height: 5.125rem;
+  font-size: 1.0625rem;
+  cursor: pointer;
+  @include open700;
+  background-color: $accent;
+  color: $white;
+  border-radius: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  &:hover {
+    background-color: $accent;
+    box-shadow: inset 0 0 0 -3px $accent;
+    opacity: 0.7;
+  }
+}
+
+.ghost-button {
+  width: 151px;
+  height: 45px;
+  cursor: pointer;
+  @include roboto900;
+  border: 2px solid $white;
+  color: $white;
+  background-color: transparent;
+  transition: all 500ms ease;
+  &:hover {
+    background-color: $accent;
+    border: 2px solid $accent;
+    box-shadow: inset 0 0 0 3px $accent;
+  }
+}
