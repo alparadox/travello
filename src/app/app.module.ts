@@ -7,6 +7,7 @@ import { ElementsComponent } from './elements/elements.component';
 import { BenefitComponent } from './benefit/benefit.component';
 import { TourComponent } from './tour/tour.component';
 import { ButtonComponent } from './button/button.component';
+import { PlanComponent } from './plan/plan.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ButtonComponent } from './button/button.component';
     ElementsComponent,
     BenefitComponent,
     TourComponent,
-    ButtonComponent
+    ButtonComponent,
+    PlanComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,93 @@
+@import "src/assets/styles/variables.scss";
+
+* {
+  margin: 0;
+}
+
+.plan-card {
+  width: 434px;
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 16px;
+}
+
+.content {
+  padding: 75px 65px 0px 60px;
+}
+
+.price {
+  @include dm;
+  font-size: 3.125rem;
+  color: $white;
+}
+
+.month {
+  @include open400;
+  font-size: 1rem;
+  color: #A5ADBB;
+}
+
+.user {
+  color: $white;
+  @include arsenal400;
+  font-size: 1.3125rem;
+  margin-top: 17px;
+}
+
+.description {
+  color: #A5ADBB;
+  @include open400;
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-width: 309px;
+}
+
+.liner {
+  width: 309px;
+  height: 2px;
+  background: rgba(235, 236, 237, 0.2);
+  margin: 0 auto;
+}
+
+.benefit-list {
+  color: #A5ADBB;
+  @include open400;
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 59px;
+}
+
+.item {
+  list-style-type: none;
+  margin-bottom: 22px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    left: -34px;
+    top: 7px;
+    width: 18px;
+    height: 3px;
+    background: $accent;
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: -38px;
+    top: 11px;
+    width: 10px;
+    height: 3px;
+    background: $accent;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+  }
+}
+
+.button {
+  padding-bottom: 80px;
+  padding-top: 217px;
+}
