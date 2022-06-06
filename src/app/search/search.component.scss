@@ -1,0 +1,51 @@
+@import "src/assets/styles/variables.scss";
+
+.search-cite {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.search-icon {
+  box-sizing: border-box;
+  width: 6.0625rem;
+  height: 4.75rem;
+  cursor: pointer;
+  background-color: $dark-button;
+  position: absolute;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  &:before {
+    content: url('../../../src/assets/images/search-alt.png');
+  }
+}
+
+.search-input {
+  box-sizing: border-box;
+  width: 29.75rem;
+  height: 4.6875rem;
+  outline: none;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  @include open400;
+  font-size: 1.1875rem;
+  padding-left: 34px;
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:focus::-moz-placeholder {
+    color: transparent
+  }
+  &:focus:-moz-placeholder {
+    color: transparent
+  }
+  &:focus:-ms-input-placeholder {
+    color: transparent
+  }
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
