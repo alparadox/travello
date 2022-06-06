@@ -12,7 +12,7 @@
 }
 
 .content {
-  padding: 75px 65px 0px 60px;
+  padding: 50px 65px 0px 60px;
 }
 
 .price {
@@ -25,13 +25,14 @@
   @include open400;
   font-size: 1rem;
   color: #A5ADBB;
+  margin-left: 4px;
 }
 
 .user {
   color: $white;
   @include arsenal400;
   font-size: 1.3125rem;
-  margin-top: 17px;
+  margin-top: 5px;
 }
 
 .description {
@@ -39,7 +40,7 @@
   @include open400;
   font-size: 1rem;
   line-height: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 44px;
   margin-top: 30px;
   max-width: 309px;
 }
@@ -56,7 +57,7 @@
   @include open400;
   font-size: 1rem;
   line-height: 25px;
-  margin-top: 59px;
+  margin-top: 62px;
 }
 
 .item {
@@ -66,28 +67,28 @@
   &:after {
     content: '';
     position: absolute;
-    left: -34px;
+    left: -39px;
     top: 7px;
     width: 18px;
     height: 3px;
     background: $accent;
-    -webkit-transform: rotate(-50deg);
-    transform: rotate(-50deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &:before {
     content: '';
     position: absolute;
-    left: -38px;
+    left: -44px;
     top: 11px;
     width: 10px;
     height: 3px;
     background: $accent;
-    -webkit-transform: rotate(50deg);
-    transform: rotate(50deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
 }
 
 .button {
   padding-bottom: 80px;
-  padding-top: 217px;
+  padding-top: 193px;
 }
