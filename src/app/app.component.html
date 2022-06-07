@@ -1,4 +1,15 @@
 <app-header></app-header>
+
+<div class="logo-main">
+  <p class="text-annotation">the travel guide app</p>
+  <p class="text-logo">Travello</p>
+  <p class="text-promo">Travel booking just a click away</p>
+</div>
+
+<div class="search-wrapper">
+  <app-search></app-search>
+</div>
+
 <div class="benefits">
   <app-benefit [title]="'100+ Options'"
                [description]="'At in proin consequat ut cursus venenatis sapien.'"
@@ -12,7 +23,14 @@
                [description]="'At in proin consequat ut cursus venenatis sapien.'"
                [imageUrl]="'assets/images/pc.svg'"></app-benefit>
 </div>
-<app-elements [titleSmall]="'Your current plan'" [titleBig]="'Select Rooms'" [titleGhost]="'View all'"></app-elements>
+
+<div class="wrapper-text">
+  <p class="title-left">Easily Find awesome places to travel this year</p>
+  <p class="text-right">Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.</p>
+</div>
+
+<app-tabs></app-tabs>
+
 <div class="tour-group">
   <app-tour></app-tour>
   <app-tour [title]="'Niagara Falls Marriott'"
@@ -23,10 +41,38 @@
   <app-tour [imageUrl]="'assets/images/Hotel3.png'"></app-tour>
   <app-tour [imageUrl]="'assets/images/Hotel4.png'"></app-tour>
 </div>
-<br>
-<br>
+
+  <div class="button-tour">
+    <app-button [type]="'g'" [title]="'View all'"></app-button>
+  </div>
+
+<div class="slider"></div>
+
+<div class="text-benefits-wrapper">
+  <div class="one-benefit">
+    <img class="image-benefit-text" src="assets/images/plane-and-money.svg">
+    <div class="one-benefit-text-wrapper">
+      <p class="benefit-title">Book your tickets at the comfort of your phone</p>
+      <p class="benefit-text">Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.</p>
+    </div>
+  </div>
+  <div class="two-benefit">
+    <div class="two-benefit-text-wrapper">
+      <p class="benefit-title">Easily Find awesome places to travel this year</p>
+      <p class="benefit-text">Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.</p>
+    </div>
+      <img claas="image-benefit-text" src="assets/images/cabin-baggage.svg">
+  </div>
+</div>
+
 <div class="plan-group">
-  <app-plan [titleButton]="'Your current plan'" [description]="'Our goverment backed plan designed to keep your business legally and secure'"></app-plan>
-  <app-plan [titleButton]="'Your current plan'" [price]="59" [rate]="'Business'" [description]="'Our goverment backed plan designed to keep your business legally and secure'"></app-plan>
-  <app-plan [titleButton]="'Your current plan'" [price]="99" [rate]="'Agency'" [itemFour]="'At in proin consequat ut cursus'"></app-plan>
+  <app-plan [titleButton]="'Your current plan'"
+            [description]="'Our goverment backed plan designed to keep your business legally and secure'"></app-plan>
+  <app-plan [titleButton]="'Your current plan'"
+            [price]="59"
+            [rate]="'Business'"
+            [description]="'Our goverment backed plan designed to keep your business legally and secure'"></app-plan>
+  <app-plan [titleButton]="'Your current plan'"
+            [price]="99" [rate]="'Agency'"
+            [itemFour]="'At in proin consequat ut cursus'"></app-plan>
 </div>

@@ -8,6 +8,8 @@ import { BenefitComponent } from './benefit/benefit.component';
 import { TourComponent } from './tour/tour.component';
 import { ButtonComponent } from './button/button.component';
 import { PlanComponent } from './plan/plan.component';
+import { SearchComponent } from './search/search.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { PlanComponent } from './plan/plan.component';
     BenefitComponent,
     TourComponent,
     ButtonComponent,
-    PlanComponent
+    PlanComponent,
+    SearchComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule

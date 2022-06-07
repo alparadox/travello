@@ -1,14 +1,142 @@
 @import "src/assets/styles/variables.scss";
+* {
+  margin: 0;
+}
+.logo-main {
+  display: block;
+  text-align: center;
+  color: $white;
+  margin: 111px 0 0 18px;
+}
+
+.text-annotation {
+  @include arsenal400;
+  font-size: 36px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+.text-logo {
+  @include arsenal400;
+  font-size: 144px;
+  text-transform: uppercase;
+  line-height: 181px;
+}
+
+.text-promo {
+  @include open400;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  margin-bottom: 17px;
+}
+
+.search-wrapper {
+  display: block;
+  text-align: center;
+  margin-bottom: 130px;
+  width: 100%;
+}
 
 .benefits {
   display: flex;
   justify-content: center;
 }
 
+.wrapper-text {
+  display: flex;
+  justify-content: center;
+  color: $white;
+  margin-top: 274px;
+  margin-bottom: 190px;
+}
+
+.title-left {
+  max-width: 549px;
+  @include arsenal400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.text-right {
+  max-width: 538px;
+  @include open400;
+  font-size: 17px;
+  margin-left: 138px;
+}
+
 .tour-group {
   display: flex;
   justify-content: center;
   gap: 37px;
+  margin-top: 62px;
+}
+
+.button-tour {
+  margin-top: 80px;
+  margin-bottom: 229px;
+}
+
+.slider {
+  width: 1026px;
+  height: 329px;
+  background-color: #0059AC;
+  margin: 0 auto;
+}
+
+.text-benefits-wrapper {
+  margin-top: 250px;
+  margin-bottom: 237px;
+  margin-left: 102px;
+}
+
+.one-benefit, .two-benefit {
+  display: flex;
+  justify-content: center;
+}
+
+.one-benefit {
+  margin-bottom: 163px;
+}
+
+.two-benefit {
+  margin-right: 59px;
+}
+
+.one-benefit-text-wrapper, .two-benefit-text-wrapper {
+  max-width: 530px;
+}
+
+.one-benefit-text-wrapper {
+  padding-top: 51px;
+  margin-right: 121px;
+  margin-left: 75px;
+}
+
+.two-benefit-text-wrapper {
+  padding-top: 43px;
+  margin-right: 66px;
+}
+
+.benefit-title {
+  @include arsenal400;
+  font-size: 48px;
+  line-height: 60px;
+  color: $white;
+  margin-bottom: 22px;
+}
+
+.benefit-text {
+  @include open400;
+  font-size: 17px;
+  line-height: 29px;
+  color: $grey;
+}
+
+.image-benefit-text {
+  width: 639px;
+  height: 378px;
 }
 
 .plan-group {
