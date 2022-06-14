@@ -10,6 +10,7 @@ import { ButtonComponent } from './button/button.component';
 import { PlanComponent } from './plan/plan.component';
 import { SearchComponent } from './search/search.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TabsComponent } from './tabs/tabs.component';
     ButtonComponent,
     PlanComponent,
     SearchComponent,
-    TabsComponent
+    TabsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

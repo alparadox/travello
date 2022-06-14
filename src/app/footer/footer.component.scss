@@ -1,0 +1,99 @@
+@import "src/assets/styles/variables.scss";
+
+:host {
+  display: block;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 39px;
+  margin-bottom: 111px;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: $white;
+  &__link {
+    margin-left: 39px;
+  }
+}
+
+a {
+  &:link {
+    color: $grey;
+  }
+  &:visited {
+    color: $grey;
+  }
+  &:hover {
+    color: $grey;
+    text-decoration-line: none;
+  }
+  &:active {
+    color: $grey;
+  }
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $grey;
+}
+
+.footer-address {
+  text-align: center;
+}
+
+.logo {
+  color: $white;
+  font-family: $teous;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 86px;
+}
+
+.email {
+  @include roboto400;
+  font-size: 24px;
+  text-decoration-line: underline;
+  line-height: 30px;
+}
+
+.street {
+  @include roboto400;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 18px;
+}
+
+.number {
+  @include roboto400;
+  font-size: 14px;
+}
+
+.footer-liner {
+  max-width: 1400px;
+  height: 1px;
+  background: $accent;
+  opacity: 0.4;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  color: $grey;
+  @include open400;
+  font-size: 17px;
+  padding: 43px 276px 69px 263px;
+}
+
+.text-left {}
+
+.text-right {}
+
+.weight-text {
+  font-weight: 700;
+}

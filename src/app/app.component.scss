@@ -1,7 +1,4 @@
 @import "src/assets/styles/variables.scss";
-* {
-  margin: 0;
-}
 .logo-main {
   display: block;
   text-align: center;
@@ -143,4 +140,8 @@
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+
+app-footer {
+  margin-top: 182px;
 }
