@@ -7,7 +7,8 @@
 .social-icons {
   display: flex;
   margin-top: 39px;
-  margin-bottom: 111px;
+  margin-bottom: 105px;
+  margin-right: 42px;
 }
 
 .icon {
@@ -71,6 +72,8 @@ a {
 .number {
   @include roboto400;
   font-size: 14px;
+  text-decoration: none;
+  line-height: 30px;
 }
 
 .footer-liner {
@@ -87,7 +90,7 @@ a {
   color: $grey;
   @include open400;
   font-size: 17px;
-  padding: 43px 276px 69px 263px;
+  padding: 50px 286px 69px 239px;
 }
 
 .text-left {}
