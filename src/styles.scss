@@ -6,6 +6,10 @@ html {
 
 body {
   background-color: $dark;
+  background-image: url("/assets/images/sky.png");
+  background-repeat: no-repeat;
+  background-position: 0 68px;
+  background-size: contain;
 }
 
 
