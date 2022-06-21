@@ -6,7 +6,7 @@
   display: block;
   text-align: center;
   color: $white;
-  margin: 111px 0 0 18px;
+  margin: 172px 0 0 18px;
 }
 
 .text-annotation {
@@ -14,13 +14,14 @@
   font-size: 36px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  line-height: 45px;
+  line-height: 0px;
 }
+
 .text-logo {
   @include arsenal400;
   font-size: 144px;
   text-transform: uppercase;
-  line-height: 181px;
+  line-height: 205px;
 }
 
 .text-promo {
@@ -34,22 +35,24 @@
 
 .search-wrapper {
   display: block;
-  text-align: center;
-  margin-bottom: 130px;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 580px;
+  padding-left: 12px;
 }
 
 .benefits {
   display: flex;
   justify-content: center;
+  margin: 138px 12px 0 0;
 }
 
 .wrapper-text {
   display: flex;
   justify-content: center;
   color: $white;
-  margin-top: 274px;
-  margin-bottom: 190px;
+  margin-top: 288px;
+  margin-bottom: 204px;
+  padding-right: 30px;
 }
 
 .title-left {
@@ -57,6 +60,7 @@
   @include arsenal400;
   font-size: 48px;
   line-height: 60px;
+  padding-top: 20px;
 }
 
 .text-right {
@@ -64,13 +68,14 @@
   @include open400;
   font-size: 17px;
   margin-left: 138px;
+  line-height: 29px;
 }
 
 .tour-group {
   display: flex;
   justify-content: center;
-  gap: 37px;
-  margin-top: 62px;
+  gap: 40px;
+  margin-top: 60px;
 }
 
 .button-tour {
